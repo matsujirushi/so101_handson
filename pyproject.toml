@@ -7,7 +7,9 @@ authors = [
     { name = "MATSUOKA Takashi", email = "matsujirushi@live.jp" }
 ]
 requires-python = "==3.12.*"
-dependencies = []
+dependencies = [
+    "lerobot[core-scripts,feetech]>=0.6.1",
+]
 
 [project.scripts]
 so101-handson = "so101_handson:main"
